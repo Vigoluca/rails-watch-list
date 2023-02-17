@@ -10,3 +10,27 @@
 // Your CSS partials
 @import "components/index";
 @import "pages/index";
+@import "components/banner";
+@import "components/card";
+
+.container{
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+
+}
+ a:hover{
+   color: #561101;
+   }
+
+li{
+  list-style: none;
+}
+
+body{
+  background-color: rgb(32, 32, 29);
+  color: white;
+}
