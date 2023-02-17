@@ -8,7 +8,7 @@
     <% @lists.each do |list| %>
       <div class="card-category" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(<%= list.photo.attached? ? cl_image_path(list.photo.key) : 'https://images.pexels.com/photos/3921045/pexels-photo-3921045.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' %>)">
        <p><%= link_to list.name, list_path(list)%></p>
-       <%= link_to "Delete", list_path,data: {turbo_method: :delete, turbo_confirm: "Are you sure?"},class:"btn btn-danger"%>
+       <%= link_to "Delete", list_path(list),data: {turbo_method: :delete, turbo_confirm: "Are you sure?"},class:"btn btn-danger"%>
       </div>
     <% end %>
 </div>
