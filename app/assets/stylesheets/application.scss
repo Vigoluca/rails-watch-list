@@ -13,24 +13,25 @@
 @import "components/banner";
 @import "components/card";
 
-.container{
+.container {
   align-items: center;
 }
 
-a{
+a {
   text-decoration: none;
   color: rgb(255, 255, 255);
 
 }
- a:hover{
-   color: #561101;
-   }
 
-li{
+a:hover {
+  color: #c3c1c1;
+}
+
+li {
   list-style: none;
 }
 
-body{
+body {
   background-color: rgb(32, 32, 29);
   color: white;
 }
